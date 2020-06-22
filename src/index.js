@@ -1,7 +1,12 @@
 import "./index.css";
 import "magnific-popup/dist/magnific-popup.css"; // Third party plugin CSS
 import "./css/styles.css"; // Core theme CSS (includes Bootstrap)
-import "bootstrap/dist/js/bootstrap.bundle.min"; // Bootstrap core JS
+
+import "bootstrap/dist/js/bootstrap.bundle.min.js"; // Bootstrap core JS
+import "jquery/dist/jquery.min.js";
+import "jquery.easing/jquery.easing.min.js";
+import "magnific-popup/dist/jquery.magnific-popup.min.js";
+
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
